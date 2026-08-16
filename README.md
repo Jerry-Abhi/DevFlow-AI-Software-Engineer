@@ -1,36 +1,178 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# DevFlow — AI Software Engineer
 
-## Getting Started
+> An AI-powered software engineering platform designed to assist developers with building, understanding, debugging, and managing software projects.
 
-First, run the development server:
+## 🚀 Overview
+
+**DevFlow** is an AI-powered software engineering assistant that brings intelligent development workflows into a single platform.
+
+It is designed to help developers work with their codebase more efficiently by combining AI agents, project context, intelligent task execution, and developer-focused tooling.
+
+The goal of DevFlow is to make software development faster, smarter, and more accessible by allowing developers to interact with their projects using natural language.
+
+## ✨ Features
+
+* 🤖 **AI-Powered Software Engineering Assistant**
+* 🧠 **Intelligent Code Understanding**
+* 💬 **Natural Language Interaction**
+* 📁 **Project & Codebase Context**
+* ⚡ **AI-assisted Development Workflows**
+* 🔍 **Code Analysis & Debugging**
+* 🛠️ **Developer-focused Dashboard**
+* 🔌 **MCP-based Tool Integration**
+* 🧩 **Agent-based Architecture**
+* 📊 **Centralized Development Workspace**
+
+## 🖥️ Screenshots
+
+### Landing Page
+
+![DevFlow Landing Page](./public/Screenshot%202026-08-11%20001548.png)
+
+### Dashboard
+
+![DevFlow Dashboard](./public/Screenshot%202026-08-11%20001632.png)
+
+## 🏗️ Architecture
+
+DevFlow follows a modern AI-powered application architecture combining a web interface with intelligent agents and developer tools.
+
+```text
+User
+  │
+  ▼
+DevFlow Web Interface
+  │
+  ▼
+AI Agent Layer
+  │
+  ├── Code Understanding
+  ├── Task Planning
+  ├── Tool Execution
+  └── Project Context
+  │
+  ▼
+Developer Tools / MCP
+  │
+  ▼
+Project Codebase
+```
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* shadcn/ui
+
+### AI & Agent Layer
+
+* OpenAI Agents SDK
+* Claude
+* LangGraph
+* MCP (Model Context Protocol)
+
+### Backend & Data
+
+* Node.js
+* PostgreSQL
+* Prisma
+* Redis
+* BullMQ
+
+### Development & Deployment
+
+* Docker
+* GitHub Actions
+* Git
+
+## 📂 Project Structure
+
+```text
+DevFlow/
+├── public/
+├── src/
+├── AGENTS.md
+├── CLAUDE.md
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── README.md
+└── tsconfig.json
+```
+
+## ⚙️ Getting Started
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Jerry-Abhi/DevFlow-AI-Software-Engineer.git
+cd DevFlow-AI-Software-Engineer
+```
+
+### 2. Install dependencies
+
+```bash
+npm install
+```
+
+### 3. Configure environment variables
+
+Create a `.env.local` file in the root directory and add the required environment variables.
+
+```env
+# Add your required API keys and configuration here
+```
+
+> Never commit `.env.local` or any API keys/secrets to GitHub.
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎯 Project Goals
 
-## Learn More
+DevFlow aims to explore how modern AI agent architectures can improve traditional software development workflows.
 
-To learn more about Next.js, take a look at the following resources:
+The project focuses on:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* AI-assisted programming
+* Agentic software development
+* Context-aware code interaction
+* Developer productivity
+* Tool orchestration
+* Modern full-stack architecture
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔮 Future Improvements
 
-## Deploy on Vercel
+* Advanced autonomous coding agents
+* Improved repository-level code understanding
+* Automated testing and debugging
+* GitHub repository integration
+* Multi-agent collaboration
+* Real-time code execution
+* Enhanced project analytics
+* Cloud-based deployment workflows
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 👨‍💻 Author
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Abhishek Anand**
+
+Computer Science & Engineering
+
+---
+
+⭐ If you find DevFlow interesting, consider giving the repository a star!
