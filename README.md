@@ -1,6 +1,10 @@
 # DevFlow — AI Software Engineer
 
 > An AI-powered software engineering platform designed to assist developers with building, understanding, debugging, and managing software projects.
+>
+> ## Preview
+
+![DevFlow-AI](DevFlow-AI.png)
 
 ## 🚀 Overview
 
