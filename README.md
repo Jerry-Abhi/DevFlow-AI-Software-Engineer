@@ -31,11 +31,11 @@ The goal of DevFlow is to make software development faster, smarter, and more ac
 
 ### Landing Page
 
-![DevFlow Landing Page](./public/Screenshot%202026-08-11%20001548.png)
+![DevFlow Landing Page](DevFlow.png)
 
 ### Dashboard
 
-![DevFlow Dashboard](./public/Screenshot%202026-08-11%20001632.png)
+![DevFlow Dashboard](DevFlow-AI.png)
 
 ## 🏗️ Architecture
 
